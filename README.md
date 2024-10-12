@@ -20,9 +20,9 @@ This app was created following the tutorial series **[SwiftUI Todo List Beginner
 
 ## 📱 Screenshots
 
-![Empty Todo List](screenshots/empty_todo_list.png)
-![Todo List](screenshots/todo_list.png)
-![Add Item](screenshots/add_item.png)
+<img src="screenshots/empty_todo_list.png" alt="Empty Todo List" height="400">
+<img src="screenshots/todo_list.png" alt="Todo List" height="400">
+<img src="screenshots/add_item.png" alt="Add Item" height="400">
 
 ## 📖 Getting Started
 
