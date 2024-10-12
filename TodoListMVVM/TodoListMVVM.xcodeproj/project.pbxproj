@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3A12A26F2CBA8C07002C3799 /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A12A26E2CBA8C07002C3799 /* NoItemsView.swift */; };
+		3A12A2712CBA9C3A002C3799 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A12A2702CBA9C3A002C3799 /* LaunchScreen.storyboard */; };
 		3AB5B4B02CB5B0E20079AE40 /* TodoListMVVMApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB5B4AF2CB5B0E20079AE40 /* TodoListMVVMApp.swift */; };
 		3AB5B4B42CB5B0E40079AE40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AB5B4B32CB5B0E40079AE40 /* Assets.xcassets */; };
 		3AB5B4B72CB5B0E40079AE40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AB5B4B62CB5B0E40079AE40 /* Preview Assets.xcassets */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		3A12A26E2CBA8C07002C3799 /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
+		3A12A2702CBA9C3A002C3799 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AB5B4AC2CB5B0E20079AE40 /* TodoListMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoListMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AB5B4AF2CB5B0E20079AE40 /* TodoListMVVMApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListMVVMApp.swift; sourceTree = "<group>"; };
 		3AB5B4B32CB5B0E40079AE40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				3AB5B4C02CB5B5590079AE40 /* ListRowView.swift */,
 				3AB5B4C22CB5B8960079AE40 /* AddView.swift */,
 				3A12A26E2CBA8C07002C3799 /* NoItemsView.swift */,
+				3A12A2702CBA9C3A002C3799 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A12A2712CBA9C3A002C3799 /* LaunchScreen.storyboard in Resources */,
 				3AB5B4B72CB5B0E40079AE40 /* Preview Assets.xcassets in Resources */,
 				3AB5B4B42CB5B0E40079AE40 /* Assets.xcassets in Resources */,
 			);
@@ -313,9 +317,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TodoListMVVM/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Do Stuff";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -341,9 +346,10 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TodoListMVVM/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Do Stuff";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
