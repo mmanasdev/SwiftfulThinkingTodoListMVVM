@@ -18,6 +18,12 @@ This app was created following the tutorial series **[SwiftUI Todo List Beginner
 - **SwiftUI**: For building the user interface.
 - **MVVM Architecture**: For a clean and maintainable codebase.
 
+## 📱 Screenshots
+
+![Empty Todo List](screenshots/empty_todo_list.png)
+![Todo List](screenshots/todo_list.png)
+![Add Item](screenshots/add_item.png)
+
 ## 📖 Getting Started
 
 1. Clone the repository:
